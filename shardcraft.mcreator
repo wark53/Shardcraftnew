@@ -86,14 +86,29 @@
           "src/main/resources/assets/shardcraft/models/item/skeletonshard.json"
         ]
       }
+    },
+    {
+      "name": "Skeletonshadv",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeletonshadv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shardcraft/advancements/skeletonshadv.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "advancements.skeletonshadv.descr": "Touch someone else\u0027s inner world",
       "item.shardcraft.deadshard": "Shard of Dead",
       "advancements.deadshinv.descr": "You touched dead",
+      "advancements.skeletonshadv.title": "Oh scary scary skeleton",
       "item_group.shardcraft.shards": "Shards",
       "advancements.deadshinv.title": "You feels dead",
       "item.shardcraft.skeletonshard": "Skeleton shard"
