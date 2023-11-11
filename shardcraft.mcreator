@@ -72,6 +72,20 @@
           "src/main/resources/data/shardcraft/advancements/deadshinv.json"
         ]
       }
+    },
+    {
+      "name": "Skeletonshard",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeletonshard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shardcraft/item/SkeletonshardItem.java",
+          "src/main/resources/assets/shardcraft/models/item/skeletonshard.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -81,7 +95,8 @@
       "item.shardcraft.deadshard": "Shard of Dead",
       "advancements.deadshinv.descr": "You touched dead",
       "item_group.shardcraft.shards": "Shards",
-      "advancements.deadshinv.title": "You feels dead"
+      "advancements.deadshinv.title": "You feels dead",
+      "item.shardcraft.skeletonshard": "Skeleton shard"
     }
   },
   "foldersRoot": {
