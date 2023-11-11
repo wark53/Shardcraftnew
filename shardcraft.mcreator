@@ -59,6 +59,19 @@
           }
         ]
       }
+    },
+    {
+      "name": "Deadshinv",
+      "type": "achievement",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deadshinv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shardcraft/advancements/deadshinv.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -66,7 +79,9 @@
   "language_map": {
     "en_us": {
       "item.shardcraft.deadshard": "Shard of Dead",
-      "item_group.shardcraft.shards": "Shards"
+      "advancements.deadshinv.descr": "You touched dead",
+      "item_group.shardcraft.shards": "Shards",
+      "advancements.deadshinv.title": "You feels dead"
     }
   },
   "foldersRoot": {

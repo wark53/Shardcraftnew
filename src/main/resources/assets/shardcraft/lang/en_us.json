@@ -1,4 +1,6 @@
 {
   "item.shardcraft.deadshard": "Shard of Dead",
-  "item_group.shardcraft.shards": "Shards"
+  "advancements.deadshinv.descr": "You touched dead",
+  "item_group.shardcraft.shards": "Shards",
+  "advancements.deadshinv.title": "You feels dead"
 }
