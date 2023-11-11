@@ -72,27 +72,12 @@
           "src/main/resources/data/shardcraft/advancements/deadshinv.json"
         ]
       }
-    },
-    {
-      "name": "Dsads",
-      "type": "item",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dsads",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/shardcraft/item/DsadsItem.java",
-          "src/main/resources/assets/shardcraft/models/item/dsads.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.shardcraft.dsads": "Shard of Dead",
       "item.shardcraft.deadshard": "Shard of Dead",
       "advancements.deadshinv.descr": "You touched dead",
       "item_group.shardcraft.shards": "Shards",
