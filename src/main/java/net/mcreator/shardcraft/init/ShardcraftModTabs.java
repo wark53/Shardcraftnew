@@ -19,6 +19,7 @@ public class ShardcraftModTabs {
 	public static final RegistryObject<CreativeModeTab> SHARDS = REGISTRY.register("shards",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shardcraft.shards")).icon(() -> new ItemStack(ShardcraftModItems.DEADSHARD.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ShardcraftModItems.DEADSHARD.get());
+				tabData.accept(ShardcraftModItems.DSADS.get());
 			})
 
 					.build());
