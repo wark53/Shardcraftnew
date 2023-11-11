@@ -1,0 +1,95 @@
+{
+  "mod_elements": [
+    {
+      "name": "Deadshard",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deadshard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shardcraft/models/item/deadshard.json",
+          "src/main/java/net/mcreator/shardcraft/item/DeadshardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Shards",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shards",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Dropdeads",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropdeads",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shardcraft/procedures/DropdeadsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.shardcraft.deadshard": "Shard of Dead",
+      "item_group.shardcraft.shards": "Shards"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "shardcraft",
+    "modName": "ShardCraft",
+    "version": "1.0.0",
+    "author": "ivanb, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.shardcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
