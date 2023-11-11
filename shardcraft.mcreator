@@ -76,6 +76,7 @@
     {
       "name": "Dsads",
       "type": "item",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsads",
