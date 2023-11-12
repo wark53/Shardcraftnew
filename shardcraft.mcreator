@@ -99,6 +99,33 @@
           "src/main/resources/data/shardcraft/advancements/skeletonshadv.json"
         ]
       }
+    },
+    {
+      "name": "ZombieSkelshard",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_skelshard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shardcraft/item/ZombieSkelshardItem.java",
+          "src/main/resources/assets/shardcraft/models/item/zombie_skelshard.json"
+        ]
+      }
+    },
+    {
+      "name": "Zbskshcraft",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zbskshcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shardcraft/recipes/zbskshcraft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -108,6 +135,7 @@
       "advancements.skeletonshadv.descr": "Touch someone else\u0027s inner world",
       "item.shardcraft.deadshard": "Shard of Dead",
       "advancements.deadshinv.descr": "You touched dead",
+      "item.shardcraft.zombie_skelshard": "Zombie Skelshard",
       "advancements.skeletonshadv.title": "Oh scary scary skeleton",
       "item_group.shardcraft.shards": "Shards",
       "advancements.deadshinv.title": "You feels dead",

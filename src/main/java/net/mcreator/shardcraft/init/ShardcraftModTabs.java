@@ -20,6 +20,7 @@ public class ShardcraftModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shardcraft.shards")).icon(() -> new ItemStack(ShardcraftModItems.DEADSHARD.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ShardcraftModItems.DEADSHARD.get());
 				tabData.accept(ShardcraftModItems.SKELETONSHARD.get());
+				tabData.accept(ShardcraftModItems.ZOMBIE_SKELSHARD.get());
 			})
 
 					.build());

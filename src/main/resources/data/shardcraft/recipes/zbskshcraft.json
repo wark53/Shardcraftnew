@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "shardcraft:deadshard"
+    },
+    "1": {
+      "item": "shardcraft:deadshard"
+    },
+    "2": {
+      "item": "shardcraft:deadshard"
+    },
+    "3": {
+      "item": "shardcraft:deadshard"
+    },
+    "4": {
+      "item": "shardcraft:skeletonshard"
+    },
+    "5": {
+      "item": "shardcraft:deadshard"
+    },
+    "6": {
+      "item": "shardcraft:deadshard"
+    },
+    "7": {
+      "item": "shardcraft:deadshard"
+    },
+    "8": {
+      "item": "shardcraft:deadshard"
+    }
+  },
+  "result": {
+    "item": "shardcraft:zombie_skelshard",
+    "count": 1
+  }
+}
