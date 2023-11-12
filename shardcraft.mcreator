@@ -155,6 +155,19 @@
           "src/main/resources/assets/shardcraft/models/block/shard_stantion.json"
         ]
       }
+    },
+    {
+      "name": "ShardStationcrft",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shard_stationcrft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shardcraft/recipes/shard_stationcrft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

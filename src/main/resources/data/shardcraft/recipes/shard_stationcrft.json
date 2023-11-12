@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "shardcraft:zombie_skelshard"
+    },
+    "3": {
+      "item": "shardcraft:skeletonshard"
+    },
+    "4": {
+      "item": "minecraft:red_wool"
+    },
+    "5": {
+      "item": "shardcraft:deadshard"
+    },
+    "6": {
+      "item": "minecraft:warped_stem"
+    },
+    "7": {
+      "item": "minecraft:warped_stem"
+    },
+    "8": {
+      "item": "minecraft:warped_stem"
+    }
+  },
+  "result": {
+    "item": "shardcraft:shard_stantion",
+    "count": 1
+  }
+}
