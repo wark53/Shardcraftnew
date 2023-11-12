@@ -10,6 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.entity.monster.Skeleton;
 import net.minecraft.world.entity.item.ItemEntity;
+import net.minecraft.world.entity.ambient.Bat;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 
@@ -43,6 +44,13 @@ public class DropdeadsProcedure {
 		if (entity instanceof Skeleton && Math.random() <= 0.1) {
 			if (world instanceof ServerLevel _level) {
 				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(ShardcraftModItems.SKELETONSHARD.get()));
+				entityToSpawn.setPickUpDelay(10);
+				_level.addFreshEntity(entityToSpawn);
+			}
+		}
+		if (entity instanceof Bat && Math.random() <= 0.01) {
+			if (world instanceof ServerLevel _level) {
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(ShardcraftModItems.NIGGERSHARD.get()));
 				entityToSpawn.setPickUpDelay(10);
 				_level.addFreshEntity(entityToSpawn);
 			}

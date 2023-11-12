@@ -199,6 +199,20 @@
           "src/main/resources/assets/shardcraft/models/block/tungesten.json"
         ]
       }
+    },
+    {
+      "name": "Niggershard",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "niggershard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shardcraft/item/NiggershardItem.java",
+          "src/main/resources/assets/shardcraft/models/item/niggershard.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -208,8 +222,8 @@
       "advancements.skeletonshadv.descr": "Touch someone else\u0027s inner world",
       "item.shardcraft.deadshard": "Shard of Dead",
       "advancements.deadshinv.descr": "You touched dead",
-      "advancements.zbskshadv.descr": "You made life, probably",
       "block.shardcraft.tungesten": "Tungesten",
+      "advancements.zbskshadv.descr": "You made life, probably",
       "advancements.skeletonshadv.title": "Oh scary scary skeleton",
       "item.shardcraft.skeletonshard": "Skeleton shard",
       "advancements.zbskshadv.title": "It\u0027s alive, maybe",
@@ -217,7 +231,8 @@
       "item.shardcraft.zombie_skelshard": "Half life shard",
       "item_group.shardcraft.shard_blocks": "Shard Blocks",
       "advancements.deadshinv.title": "You feels dead",
-      "item_group.shardcraft.shards": "Shards"
+      "item_group.shardcraft.shards": "Shards",
+      "item.shardcraft.niggershard": "Glek shard"
     }
   },
   "foldersRoot": {

@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.shardcraft.item.ZombieSkelshardItem;
 import net.mcreator.shardcraft.item.SkeletonshardItem;
+import net.mcreator.shardcraft.item.NiggershardItem;
 import net.mcreator.shardcraft.item.DeadshardItem;
 import net.mcreator.shardcraft.ShardcraftMod;
 
@@ -24,6 +25,7 @@ public class ShardcraftModItems {
 	public static final RegistryObject<Item> ZOMBIE_SKELSHARD = REGISTRY.register("zombie_skelshard", () -> new ZombieSkelshardItem());
 	public static final RegistryObject<Item> SHARD_STANTION = block(ShardcraftModBlocks.SHARD_STANTION);
 	public static final RegistryObject<Item> TUNGESTEN = block(ShardcraftModBlocks.TUNGESTEN);
+	public static final RegistryObject<Item> NIGGERSHARD = REGISTRY.register("niggershard", () -> new NiggershardItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
