@@ -1,0 +1,9 @@
+{
+  "parent": "shardcraft:custom/shard_stationyrayra",
+  "textures": {
+    "all": "shardcraft:block/fulltextshdstnew",
+    "particle": "shardcraft:block/fulltextshdstnew",
+    "10": "shardcraft:block/fulltextshdstnew"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "shstbodyv1",
+        "5": "boneskull",
+        "6": "skulltxt",
+        "8": "boneskull"
+      },
+      "name": "default"
+    }
+  }
+}

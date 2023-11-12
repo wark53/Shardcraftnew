@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.shardcraft.init.ShardcraftModTabs;
 import net.mcreator.shardcraft.init.ShardcraftModItems;
+import net.mcreator.shardcraft.init.ShardcraftModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,6 +50,8 @@ public class ShardcraftMod {
 	public ShardcraftMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		ShardcraftModBlocks.REGISTRY.register(bus);
 
 		ShardcraftModItems.REGISTRY.register(bus);
 

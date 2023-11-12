@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "shardcraft:block/shard_stantion"
+    },
+    "facing=east": {
+      "model": "shardcraft:block/shard_stantion",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "shardcraft:block/shard_stantion",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "shardcraft:block/shard_stantion",
+      "y": 270
+    }
+  }
+}
