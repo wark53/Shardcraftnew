@@ -21,7 +21,6 @@ public class ShardcraftModTabs {
 				tabData.accept(ShardcraftModItems.DEADSHARD.get());
 				tabData.accept(ShardcraftModItems.SKELETONSHARD.get());
 				tabData.accept(ShardcraftModItems.ZOMBIE_SKELSHARD.get());
-				tabData.accept(ShardcraftModBlocks.TUNGESTEN.get().asItem());
 				tabData.accept(ShardcraftModItems.NIGGERSHARD.get());
 			})
 
@@ -29,6 +28,7 @@ public class ShardcraftModTabs {
 	public static final RegistryObject<CreativeModeTab> SHARD_BLOCKS = REGISTRY.register("shard_blocks",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shardcraft.shard_blocks")).icon(() -> new ItemStack(ShardcraftModBlocks.SHARD_STANTION.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ShardcraftModBlocks.SHARD_STANTION.get().asItem());
+				tabData.accept(ShardcraftModBlocks.TUNGESTEN.get().asItem());
 			})
 
 					.build());

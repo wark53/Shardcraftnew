@@ -1,4 +1,19 @@
 {
+  "display": {
+    "icon": {
+      "item": "shardcraft:niggershard"
+    },
+    "title": {
+      "translate": "advancements.niggershadr_adv.title"
+    },
+    "description": {
+      "translate": "advancements.niggershadr_adv.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
   "criteria": {
     "niggershadr_adv": {
       "trigger": "minecraft:inventory_changed",
