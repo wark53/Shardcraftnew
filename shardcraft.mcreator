@@ -179,6 +179,26 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Tungesten",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungesten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shardcraft/world/features/ores/TungestenFeature.java",
+          "src/main/resources/assets/shardcraft/blockstates/tungesten.json",
+          "src/main/resources/data/shardcraft/forge/biome_modifier/tungesten_biome_modifier.json",
+          "src/main/resources/data/shardcraft/worldgen/configured_feature/tungesten.json",
+          "src/main/resources/data/shardcraft/worldgen/placed_feature/tungesten.json",
+          "src/main/resources/assets/shardcraft/models/item/tungesten.json",
+          "src/main/java/net/mcreator/shardcraft/block/TungestenBlock.java",
+          "src/main/resources/assets/shardcraft/models/block/tungesten.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -189,6 +209,7 @@
       "item.shardcraft.deadshard": "Shard of Dead",
       "advancements.deadshinv.descr": "You touched dead",
       "advancements.zbskshadv.descr": "You made life, probably",
+      "block.shardcraft.tungesten": "Tungesten",
       "advancements.skeletonshadv.title": "Oh scary scary skeleton",
       "item.shardcraft.skeletonshard": "Skeleton shard",
       "advancements.zbskshadv.title": "It\u0027s alive, maybe",

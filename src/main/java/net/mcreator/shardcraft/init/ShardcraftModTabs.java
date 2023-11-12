@@ -21,6 +21,7 @@ public class ShardcraftModTabs {
 				tabData.accept(ShardcraftModItems.DEADSHARD.get());
 				tabData.accept(ShardcraftModItems.SKELETONSHARD.get());
 				tabData.accept(ShardcraftModItems.ZOMBIE_SKELSHARD.get());
+				tabData.accept(ShardcraftModBlocks.TUNGESTEN.get().asItem());
 			})
 
 					.build());

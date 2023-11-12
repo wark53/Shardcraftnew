@@ -23,6 +23,7 @@ public class ShardcraftModItems {
 	public static final RegistryObject<Item> SKELETONSHARD = REGISTRY.register("skeletonshard", () -> new SkeletonshardItem());
 	public static final RegistryObject<Item> ZOMBIE_SKELSHARD = REGISTRY.register("zombie_skelshard", () -> new ZombieSkelshardItem());
 	public static final RegistryObject<Item> SHARD_STANTION = block(ShardcraftModBlocks.SHARD_STANTION);
+	public static final RegistryObject<Item> TUNGESTEN = block(ShardcraftModBlocks.TUNGESTEN);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

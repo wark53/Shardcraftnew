@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "shardcraft:tungesten",
+  "step": "underground_ores"
+}

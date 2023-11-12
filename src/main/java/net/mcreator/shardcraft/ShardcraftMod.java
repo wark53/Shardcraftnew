@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.shardcraft.init.ShardcraftModTabs;
 import net.mcreator.shardcraft.init.ShardcraftModItems;
+import net.mcreator.shardcraft.init.ShardcraftModFeatures;
 import net.mcreator.shardcraft.init.ShardcraftModBlocks;
 
 import java.util.function.Supplier;
@@ -56,6 +57,7 @@ public class ShardcraftMod {
 		ShardcraftModItems.REGISTRY.register(bus);
 
 		ShardcraftModTabs.REGISTRY.register(bus);
+		ShardcraftModFeatures.REGISTRY.register(bus);
 
 	}
 
