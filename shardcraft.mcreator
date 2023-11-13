@@ -226,6 +226,60 @@
           "src/main/resources/data/shardcraft/advancements/niggershadr_adv.json"
         ]
       }
+    },
+    {
+      "name": "RawTungsten",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tungsten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shardcraft/item/RawTungstenItem.java",
+          "src/main/resources/assets/shardcraft/models/item/raw_tungsten.json"
+        ]
+      }
+    },
+    {
+      "name": "Tengfort",
+      "type": "loottable",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tengfort",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shardcraft/loot_tables/blocks/tungesten.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenIngot",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shardcraft/item/TungstenIngotItem.java",
+          "src/main/resources/assets/shardcraft/models/item/tungsten_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstensmelt",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstensmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shardcraft/recipes/tungstensmelt.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -233,10 +287,11 @@
   "language_map": {
     "en_us": {
       "advancements.skeletonshadv.descr": "Touch someone else\u0027s inner world",
+      "item.shardcraft.raw_tungsten": "Raw Tungsten",
       "item.shardcraft.deadshard": "Shard of Dead",
       "advancements.deadshinv.descr": "You touched dead",
-      "block.shardcraft.tungesten": "Tungesten",
       "advancements.zbskshadv.descr": "You made life, probably",
+      "block.shardcraft.tungesten": "Tungesten",
       "advancements.skeletonshadv.title": "Oh scary scary skeleton",
       "item.shardcraft.skeletonshard": "Skeleton shard",
       "advancements.zbskshadv.title": "It\u0027s alive, maybe",
@@ -245,6 +300,7 @@
       "advancements.niggershadr_adv.title": "osy",
       "item.shardcraft.zombie_skelshard": "Half life shard",
       "item_group.shardcraft.shard_blocks": "Shard Blocks",
+      "item.shardcraft.tungsten_ingot": "Tungsten Ingot",
       "advancements.deadshinv.title": "You feels dead",
       "item_group.shardcraft.shards": "Shards",
       "item.shardcraft.niggershard": "Glek shard"

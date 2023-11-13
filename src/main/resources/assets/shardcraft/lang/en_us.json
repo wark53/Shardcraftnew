@@ -1,9 +1,10 @@
 {
   "advancements.skeletonshadv.descr": "Touch someone else\u0027s inner world",
+  "item.shardcraft.raw_tungsten": "Raw Tungsten",
   "item.shardcraft.deadshard": "Shard of Dead",
   "advancements.deadshinv.descr": "You touched dead",
-  "block.shardcraft.tungesten": "Tungesten",
   "advancements.zbskshadv.descr": "You made life, probably",
+  "block.shardcraft.tungesten": "Tungesten",
   "advancements.skeletonshadv.title": "Oh scary scary skeleton",
   "item.shardcraft.skeletonshard": "Skeleton shard",
   "advancements.zbskshadv.title": "It\u0027s alive, maybe",
@@ -12,6 +13,7 @@
   "advancements.niggershadr_adv.title": "osy",
   "item.shardcraft.zombie_skelshard": "Half life shard",
   "item_group.shardcraft.shard_blocks": "Shard Blocks",
+  "item.shardcraft.tungsten_ingot": "Tungsten Ingot",
   "advancements.deadshinv.title": "You feels dead",
   "item_group.shardcraft.shards": "Shards",
   "item.shardcraft.niggershard": "Glek shard"

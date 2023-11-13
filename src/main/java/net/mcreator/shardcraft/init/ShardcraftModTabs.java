@@ -6,14 +6,19 @@ package net.mcreator.shardcraft.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.shardcraft.ShardcraftMod;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ShardcraftModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ShardcraftMod.MODID);
 	public static final RegistryObject<CreativeModeTab> SHARDS = REGISTRY.register("shards",
@@ -22,6 +27,7 @@ public class ShardcraftModTabs {
 				tabData.accept(ShardcraftModItems.SKELETONSHARD.get());
 				tabData.accept(ShardcraftModItems.ZOMBIE_SKELSHARD.get());
 				tabData.accept(ShardcraftModItems.NIGGERSHARD.get());
+				tabData.accept(ShardcraftModItems.RAW_TUNGSTEN.get());
 			})
 
 					.build());
@@ -32,4 +38,12 @@ public class ShardcraftModTabs {
 			})
 
 					.build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+
+		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(ShardcraftModItems.TUNGSTEN_INGOT.get());
+		}
+	}
 }
