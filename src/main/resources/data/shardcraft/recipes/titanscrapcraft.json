@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "shardcraft:titan_shards"
+    },
+    "1": {
+      "item": "shardcraft:titan_shards"
+    },
+    "2": {
+      "item": "shardcraft:titan_shards"
+    },
+    "3": {
+      "item": "shardcraft:titan_shards"
+    },
+    "4": {
+      "item": "shardcraft:titan_shards"
+    },
+    "5": {
+      "item": "shardcraft:titan_shards"
+    },
+    "6": {
+      "item": "shardcraft:titan_shards"
+    },
+    "7": {
+      "item": "shardcraft:titan_shards"
+    },
+    "8": {
+      "item": "shardcraft:titan_shards"
+    }
+  },
+  "result": {
+    "item": "shardcraft:titanscrap",
+    "count": 1
+  }
+}

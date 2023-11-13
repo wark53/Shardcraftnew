@@ -28,6 +28,8 @@ public class ShardcraftModTabs {
 				tabData.accept(ShardcraftModItems.ZOMBIE_SKELSHARD.get());
 				tabData.accept(ShardcraftModItems.NIGGERSHARD.get());
 				tabData.accept(ShardcraftModItems.RAW_TUNGSTEN.get());
+				tabData.accept(ShardcraftModItems.TITAN_SHARDS.get());
+				tabData.accept(ShardcraftModItems.TITANSCRAP.get());
 			})
 
 					.build());

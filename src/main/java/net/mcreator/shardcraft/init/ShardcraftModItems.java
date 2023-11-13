@@ -14,6 +14,8 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.shardcraft.item.ZombieSkelshardItem;
 import net.mcreator.shardcraft.item.TungstenIngotItem;
+import net.mcreator.shardcraft.item.TitanscrapItem;
+import net.mcreator.shardcraft.item.TitanShardsItem;
 import net.mcreator.shardcraft.item.SkeletonshardItem;
 import net.mcreator.shardcraft.item.RawTungstenItem;
 import net.mcreator.shardcraft.item.NiggershardItem;
@@ -31,6 +33,8 @@ public class ShardcraftModItems {
 	public static final RegistryObject<Item> RAW_TUNGSTEN = REGISTRY.register("raw_tungsten", () -> new RawTungstenItem());
 	public static final RegistryObject<Item> TUNGSTEN_INGOT = REGISTRY.register("tungsten_ingot", () -> new TungstenIngotItem());
 	public static final RegistryObject<Item> TITANORE = block(ShardcraftModBlocks.TITANORE);
+	public static final RegistryObject<Item> TITAN_SHARDS = REGISTRY.register("titan_shards", () -> new TitanShardsItem());
+	public static final RegistryObject<Item> TITANSCRAP = REGISTRY.register("titanscrap", () -> new TitanscrapItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
