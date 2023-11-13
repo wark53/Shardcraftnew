@@ -30,6 +30,7 @@ public class ShardcraftModItems {
 	public static final RegistryObject<Item> NIGGERSHARD = REGISTRY.register("niggershard", () -> new NiggershardItem());
 	public static final RegistryObject<Item> RAW_TUNGSTEN = REGISTRY.register("raw_tungsten", () -> new RawTungstenItem());
 	public static final RegistryObject<Item> TUNGSTEN_INGOT = REGISTRY.register("tungsten_ingot", () -> new TungstenIngotItem());
+	public static final RegistryObject<Item> TITANORE = block(ShardcraftModBlocks.TITANORE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

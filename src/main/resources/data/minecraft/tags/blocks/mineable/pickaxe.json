@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "shardcraft:tungesten"
+    "shardcraft:tungesten",
+    "shardcraft:titanore"
   ]
 }

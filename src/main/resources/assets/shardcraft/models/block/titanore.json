@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shardcraft:block/titan_ore",
+    "up": "shardcraft:block/titan_ore",
+    "north": "shardcraft:block/titan_ore",
+    "east": "shardcraft:block/titan_ore",
+    "south": "shardcraft:block/titan_ore",
+    "west": "shardcraft:block/titan_ore",
+    "particle": "shardcraft:block/titan_ore"
+  },
+  "render_type": "solid"
+}

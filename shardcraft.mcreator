@@ -280,6 +280,26 @@
           "src/main/resources/data/shardcraft/recipes/tungstensmelt.json"
         ]
       }
+    },
+    {
+      "name": "Titanore",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shardcraft/blockstates/titanore.json",
+          "src/main/java/net/mcreator/shardcraft/block/TitanoreBlock.java",
+          "src/main/java/net/mcreator/shardcraft/world/features/ores/TitanoreFeature.java",
+          "src/main/resources/assets/shardcraft/models/block/titanore.json",
+          "src/main/resources/data/shardcraft/forge/biome_modifier/titanore_biome_modifier.json",
+          "src/main/resources/data/shardcraft/worldgen/configured_feature/titanore.json",
+          "src/main/resources/data/shardcraft/worldgen/placed_feature/titanore.json",
+          "src/main/resources/assets/shardcraft/models/item/titanore.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -293,6 +313,7 @@
       "advancements.zbskshadv.descr": "You made life, probably",
       "block.shardcraft.tungesten": "Tungesten",
       "advancements.skeletonshadv.title": "Oh scary scary skeleton",
+      "block.shardcraft.titanore": "Titan ore",
       "item.shardcraft.skeletonshard": "Skeleton shard",
       "advancements.zbskshadv.title": "It\u0027s alive, maybe",
       "block.shardcraft.shard_stantion": "Shard Stantion",

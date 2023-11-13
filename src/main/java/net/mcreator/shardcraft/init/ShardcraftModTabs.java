@@ -35,6 +35,7 @@ public class ShardcraftModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shardcraft.shard_blocks")).icon(() -> new ItemStack(ShardcraftModBlocks.SHARD_STANTION.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ShardcraftModBlocks.SHARD_STANTION.get().asItem());
 				tabData.accept(ShardcraftModBlocks.TUNGESTEN.get().asItem());
+				tabData.accept(ShardcraftModBlocks.TITANORE.get().asItem());
 			})
 
 					.build());

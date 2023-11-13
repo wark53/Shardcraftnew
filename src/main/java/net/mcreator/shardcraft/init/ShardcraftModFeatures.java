@@ -12,10 +12,12 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.shardcraft.world.features.ores.TungestenFeature;
+import net.mcreator.shardcraft.world.features.ores.TitanoreFeature;
 import net.mcreator.shardcraft.ShardcraftMod;
 
 @Mod.EventBusSubscriber
 public class ShardcraftModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, ShardcraftMod.MODID);
 	public static final RegistryObject<Feature<?>> TUNGESTEN = REGISTRY.register("tungesten", TungestenFeature::new);
+	public static final RegistryObject<Feature<?>> TITANORE = REGISTRY.register("titanore", TitanoreFeature::new);
 }
